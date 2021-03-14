@@ -1,0 +1,59 @@
+<!--
+  Copyright (c) 2021 Olivier Patry
+
+  Permission is hereby granted, free of charge, to any person obtaining
+  a copy of this software and associated documentation files (the "Software"),
+  to deal in the Software without restriction, including without limitation
+  the rights to use, copy, modify, merge, publish, distribute, sublicense,
+  and/or sell copies of the Software, and to permit persons to whom the Software
+  is furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+  CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+  TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
+  OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<resources>
+    <string name="app_name">Bloom</string>
+    <string name="start">Start</string>
+    <string name="welcome_signup">Sign up</string>
+    <string name="login_login">Log in</string>
+    <string name="login_no_account">Don\'t have an account?</string>
+    <string name="login_signup">Sign up</string>
+
+
+    <string name="theme_desert_chic">Desert chic</string>
+    <string name="theme_tiny_terrariums">Tiny terrariums</string>
+    <string name="theme_jungle_vibes">Jungle vibes</string>
+    <string name="theme_easy_care">Easy care</string>
+    <string name="theme_statements">Statements</string>
+    <string name="plant_monstera">Monstera</string>
+    <string name="plant_aglaonema">Aglaonema</string>
+    <string name="plant_peace_lily">Peace lily</string>
+    <string name="plant_fiddle_leaf">Fiddle leaf</string>
+    <string name="plant_snake_plant">Snake plant</string>
+    <string name="plant_pothos">Pothos</string>
+    <string name="app_subtitle">Beautiful home garden solutions</string>
+    <string name="welcome_create_account">Create account</string>
+    <string name="welcome_login">Log in</string>
+    <string name="login_login_title">Log in with email</string>
+    <string name="login_email_address">Email address</string>
+    <string name="login_password">Password (8+ characters)</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_cart">Cart</string>
+    <string name="search">Search</string>
+    <string name="browse_themes">Browse themes</string>
+    <string name="design_your_home_garden">Design your home garden</string>
+    <string name="filter_plants">Filter plants</string>
+    <string name="dummy_desc">This is a description</string>
+
+</resources>
