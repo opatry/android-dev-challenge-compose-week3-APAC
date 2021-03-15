@@ -118,7 +118,7 @@ private fun logo() = painterResource(
 )
 
 @ExperimentalFoundationApi
-@Preview("Light Theme", widthDp = 360, heightDp = 640)
+@Preview("Welcome Light Theme", widthDp = 360, heightDp = 640)
 @Composable
 private fun WelcomeLightPreview() {
     BloomTheme {
@@ -127,7 +127,7 @@ private fun WelcomeLightPreview() {
 }
 
 @ExperimentalFoundationApi
-@Preview("Dark Theme", widthDp = 360, heightDp = 640)
+@Preview("Welcome Dark Theme", widthDp = 360, heightDp = 640)
 @Composable
 private fun WelcomeDarkPreview() {
     BloomTheme(darkTheme = true) {

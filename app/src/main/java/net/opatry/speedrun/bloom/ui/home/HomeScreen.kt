@@ -119,7 +119,7 @@ fun HomeScreen() {
 }
 
 @ExperimentalFoundationApi
-@Preview("Light Theme", widthDp = 360, heightDp = 640)
+@Preview("Home Light Theme", widthDp = 360, heightDp = 640)
 @Composable
 private fun HomeLightPreview() {
     BloomTheme {
@@ -128,7 +128,7 @@ private fun HomeLightPreview() {
 }
 
 @ExperimentalFoundationApi
-@Preview("Dark Theme", widthDp = 360, heightDp = 640)
+@Preview("Home Dark Theme", widthDp = 360, heightDp = 640)
 @Composable
 private fun HomeDarkPreview() {
     BloomTheme(darkTheme = true) {

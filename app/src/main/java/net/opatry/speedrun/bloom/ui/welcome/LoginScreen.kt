@@ -125,23 +125,19 @@ fun LoginScreen(onSignedIn: () -> Unit) {
 }
 
 @ExperimentalFoundationApi
-@Preview("Light Theme", widthDp = 360, heightDp = 640)
+@Preview("Login Light Theme", widthDp = 360, heightDp = 640)
 @Composable
 private fun LoginLightPreview() {
     BloomTheme {
-        Surface(color = MaterialTheme.colors.background) {
-            LoginScreen {}
-        }
+        LoginScreen {}
     }
 }
 
 @ExperimentalFoundationApi
-@Preview("Dark Theme", widthDp = 360, heightDp = 640)
+@Preview("Login Dark Theme", widthDp = 360, heightDp = 640)
 @Composable
 private fun LoginDarkPreview() {
     BloomTheme(darkTheme = true) {
-        Surface(color = MaterialTheme.colors.background) {
-            LoginScreen {}
-        }
+        LoginScreen {}
     }
 }
