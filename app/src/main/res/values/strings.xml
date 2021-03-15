@@ -22,12 +22,6 @@
 
 <resources>
     <string name="app_name">Bloom</string>
-    <string name="start">Start</string>
-    <string name="welcome_signup">Sign up</string>
-    <string name="login_login">Log in</string>
-    <string name="login_no_account">Don\'t have an account?</string>
-    <string name="login_signup">Sign up</string>
-
 
     <string name="theme_desert_chic">Desert chic</string>
     <string name="theme_tiny_terrariums">Tiny terrariums</string>
@@ -46,6 +40,7 @@
     <string name="login_login_title">Log in with email</string>
     <string name="login_email_address">Email address</string>
     <string name="login_password">Password (8+ characters)</string>
+    <string name="login_login">Log in</string>
     <string name="nav_home">Home</string>
     <string name="nav_favorites">Favorites</string>
     <string name="nav_profile">Profile</string>
