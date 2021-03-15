@@ -68,8 +68,9 @@ fun ThemesBrowser(themes: List<Theme>, modifier: Modifier = Modifier) {
             Modifier.fillMaxWidth(),
             contentPadding = PaddingValues(horizontal = 16.dp, vertical = 2.dp)
         ) {
+            val themesCount = themes.size
             itemsIndexed(themes) { index, theme ->
-                if (index != 0) {
+                if (themesCount > 0 && index < themesCount - 1) {
                     Spacer(Modifier.width(8.dp))
                 }
                 ThemeCard(stringResource(theme.name), painterResource(theme.picture))
