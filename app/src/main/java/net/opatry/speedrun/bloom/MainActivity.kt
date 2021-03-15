@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
         // This app draws behind the system bars, so we want to handle fitting system windows
         WindowCompat.setDecorFitsSystemWindows(window, false)
         setContent {
-            MySootheApp()
+            BloomApp()
         }
     }
 }
@@ -62,7 +62,7 @@ enum class AppState {
 
 @ExperimentalFoundationApi
 @Composable
-fun MySootheApp() {
+fun BloomApp() {
     ProvideWindowInsets {
         BloomTheme {
             val (appState, setAppState) = remember { mutableStateOf(AppState.OnBoarding) }
